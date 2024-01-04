@@ -21,7 +21,7 @@ const Banner = () => {
               Ronal <span>Gonzalez</span>
             </motion.h1>
 
-            <motion.div variants={fadeIn('up', 0.3)} initial='hidden' whileInView={'show'} viewport={{once: false , amount: 0.7}}   className="mb-6 text-[30px] lg:text-[60px] font-secondary font-semibold  uppercase leading-[1]">
+            <motion.div variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false , amount: 0.7}}   className="mb-6 text-[30px] lg:text-[60px] font-secondary font-semibold  uppercase leading-[1]">
               <span className="mr-4">I am a</span>
 
               <TypeAnimation
@@ -40,23 +40,24 @@ const Banner = () => {
               ></TypeAnimation>
             </motion.div>
 
-            <p className="mb-8  max-w-lg mx-auto lg:mx-0">
+            <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false , amount: 0.7}} className="mb-8  max-w-lg mx-auto lg:mx-0">
               Soy desarrollador Full Stack altamente competente con experiencia
               en tecnologías líderes como React.js, Vue.js y ASP.NET Core en el
               entorno de desarrollo de aplicaciones web. Experto en la creación
               de interfaces de usuario interactivas y eficientes utilizando
               React.js y Vue.js, y habilidades probadas en el desarrollo del
               lado del servidor con ASP.NET Core.
-            </p>
+            </motion.p>
 
-            <div className="mt-3 mb-3 flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
+            <motion.div variants={fadeIn('up', 0.6)} initial='hidden' whileInView={'show'} viewport={{once: false , amount: 0.7}} className="mt-3 mb-3 flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
               <button className="btn btn-sm">Contact me</button>
               <a href="#" className="text-gradient btn-link">
                 {" "}
                 My Portfolio
               </a>
-            </div>
-            <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
+            </motion.div>
+      
+            <motion.div variants={fadeIn('up', 0.7)} initial='hidden' whileInView={'show'} viewport={{once: false , amount: 0.7}} className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
               <a href="#">
                 <FaGithub></FaGithub>
               </a>
@@ -68,7 +69,7 @@ const Banner = () => {
               <a href="#" >
                 <FaYoutube></FaYoutube>
               </a> 
-            </div>
+            </motion.div>
           </div>
 
           <div className="sm:content-center hidden lg:flex flex-1 max-w-[320px] lg:max-w-[382px] mx-auto">
