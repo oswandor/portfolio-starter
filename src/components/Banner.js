@@ -72,7 +72,7 @@ const Banner = () => {
             </motion.div>
           </div>
 
-          <div className="sm:content-center hidden lg:flex flex-1 max-w-[320px] lg:max-w-[382px] mx-auto">
+          <div className="sm:content-center hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto">
             <img src={Image}></img>
           </div>
         </div>
