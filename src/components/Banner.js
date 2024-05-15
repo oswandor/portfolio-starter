@@ -41,12 +41,7 @@ const Banner = () => {
             </motion.div>
 
             <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false , amount: 0.7}} className="mb-8  max-w-lg mx-auto lg:mx-0">
-              Soy desarrollador Full Stack altamente competente con experiencia
-              en tecnologías líderes como React.js, Vue.js y ASP.NET Core en el
-              entorno de desarrollo de aplicaciones web. Experto en la creación
-              de interfaces de usuario interactivas y eficientes utilizando
-              React.js y Vue.js, y habilidades probadas en el desarrollo del
-              lado del servidor con ASP.NET Core.
+            I am a Cloud Architect with 5 years of experience specializing in the Azure platform. I have a solid command of essential technologies for container management and orchestration, including Kubernetes and Docker. I have experience implementing and managing Azure Kubernetes Service (AKS), as well as configuring and optimizing load balancing and security solutions with Azure Front Door and Application Gateway.
             </motion.p>
 
             <motion.div variants={fadeIn('up', 0.6)} initial='hidden' whileInView={'show'} viewport={{once: false , amount: 0.7}} className="mt-3 mb-3 flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
